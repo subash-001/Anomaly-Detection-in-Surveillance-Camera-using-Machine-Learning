@@ -12,7 +12,8 @@
 # Modules
 ## Data Collection
   The process of data collection from the UCF Crime Dataset involves downloading video clips depicting various criminal and non-criminal activities, annotating them with relevant labels, and splitting the dataset into training and testing sets. Preprocessing steps, including resizing frames and normalizing pixel values, ensure data consistency, while optional augmentation techniques enhance diversity. Features are extracted from video frames, often utilizing pre-trained convolutional neural networks, and a deep anomaly ranking model is trained on the annotated dataset. The model is fine-tuned and evaluated on the testing set, using metrics like precision and recall to gauge its effectiveness in detecting criminal activities. This comprehensive approach ensures the dataset's utilization for training and evaluating anomaly detection models in surveillance videos from the UCF Crime Dataset.
-      ##  UCF Crime Dataset(Normal frames)
+  
+      ## UCF Crime Dataset(Normal frames)
   
   ![image](https://github.com/user-attachments/assets/40f102c6-2497-4455-bc95-d7650a53a633)
 
